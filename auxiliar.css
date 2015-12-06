@@ -1,0 +1,49 @@
+.ui-view{
+  width: 100%;
+}
+
+.ui-view{
+  background-color: #f7f8fa;
+}
+
+.ui-view.dark{
+  background-color: #3f4750;
+}
+
+article, span, section, div{
+  font-family: Lato;
+}
+
+.ui-view.dark .content-title,.ui-view.dark .content-use,.ui-view.dark .content-example{
+  color: #d2dce2;
+}
+
+body{
+  margin: 0;
+}
+
+button:focus, input:focus, select:focus {
+  outline:none;
+}
+
+button{
+  margin-right: 15px;
+}
+
+div{
+  margin: 30px 0px 15px 0px;
+}
+
+.ui-content{
+  margin-left: 70px;
+  padding-bottom: 45px;
+}
+
+.content-use, .content-example{
+  margin-left: 50px;
+}
+
+.content-title{
+  font-size: 20px;
+  font-weight: bold;
+}
