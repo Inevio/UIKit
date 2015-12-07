@@ -105,5 +105,9 @@ $( document ).ready(function() {
     e.stopPropagation();
   });
 
+  /*$('.ui-input-search i').on('click', function(){
+    $('.ui-input-search input').val('');
+  });*/
+
 
 });
