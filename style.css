@@ -507,7 +507,7 @@
   padding: 5px 0px;
   border-radius: 3px;
   border: 1px solid #ccd3d5;
-  animation: fadein 1s;
+  animation: fadein 0.2s;
 }
 
 .ui-context-menu .item{
@@ -2108,7 +2108,7 @@
 	-moz-border-radius: 0 0 6px 6px;
 	border-radius: 0 0 6px 6px;
 	background-color: rgba(0, 0, 0, 0.4);
-  animation: ui-alert-appear-animation 1s forwards;
+  animation: ui-alert-appear-animation 0.2s forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
   display: none;
@@ -2388,7 +2388,7 @@
 	-moz-border-radius: 0 0 6px 6px;
 	border-radius: 0 0 6px 6px;
 	background-color: rgba(0, 0, 0, 0.4);
-  animation: ui-alert-appear-animation 1s forwards;
+  animation: ui-alert-appear-animation 0.2s forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
   display: none;
