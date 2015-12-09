@@ -105,6 +105,14 @@ $( document ).ready(function() {
     e.stopPropagation();
   });
 
+  $('.ui-input-search input').on('focus', function(){
+    $(this).parent('.ui-input-search').addClass('active');
+  });
+
+  $('.ui-input-search input').on('blur', function(){
+    $(this).parent('.ui-input-search').removeClass('active');
+  });
+
   /*$('.ui-input-search i').on('click', function(){
     $('.ui-input-search input').val('');
   });*/

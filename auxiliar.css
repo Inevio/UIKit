@@ -47,3 +47,10 @@ div{
   font-size: 20px;
   font-weight: bold;
 }
+
+.ui-view .ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+}

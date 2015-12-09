@@ -20,6 +20,8 @@
   font-family: Lato;
   font-size: 15px;
   color: #545f65;
+  max-width: 80px;
+  display: inline-block;
 }
 
 .ui-btn:hover{
@@ -58,6 +60,7 @@
 
 .ui-btn.small span{
   font-size: 13px;
+  max-width: 71px;
 }
 
 .ui-btn.big{
@@ -67,6 +70,7 @@
 
 .ui-btn.big span{
   font-size: 19px;
+  max-width: 87px;
 }
 
 
@@ -299,6 +303,7 @@
   margin-top: 9px;
   width: 270px;
   font-family: Lato;
+  color: #889399;
 }
 
 .ui-input-search.active{
