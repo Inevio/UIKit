@@ -32,11 +32,7 @@ $( document ).ready(function() {
 
     var object = $(this);
     if(!object.hasClass('inactive')){
-      if(object.hasClass('active')){
-        object.removeClass('active');
-      }else{
-        object.addClass('active');
-      }
+      object.toggleClass('active');
     }
 
   });
@@ -45,31 +41,22 @@ $( document ).ready(function() {
 
     var object = $(this);
     if(!object.hasClass('inactive')){
-      if(object.hasClass('active')){
-        object.removeClass('active');
-      }else{
-        object.addClass('active');
-      }
+      object.toggleClass('active');
     }
 
   });
 
   $('.ui-icons-grouped figure').on('click', function(){
 
-    $('.ui-icons-grouped .active').removeClass('active');
+    $(this).siblings('.active').removeClass('active');
     $(this).addClass('active');
 
   });
 
   $('.ui-alignment-btn').on('click', function(){
 
-    var object = $(this);
-    if( !object.hasClass('inactive') ){
-
-      $('.ui-alignment-btn.active').removeClass('active');
-      object.addClass('active');
-
-    }
+    $(this).siblings('.active').removeClass('active');
+    $(this).addClass('active');
 
   });
 
@@ -87,21 +74,19 @@ $( document ).ready(function() {
   });
 
   $('.ui-select-dropdown article').on('click', function(e){
-    $('.ui-select-input.selecting').removeClass('selecting');
-    $('.ui-select-dropdown.selecting').removeClass('selecting');
-    $('.ui-select-input article').text( $(this).text() );
+    $(this).parent().removeClass('selecting');
+    $(this).parent().siblings().removeClass('selecting');
+    $(this).parent().siblings().children('article').text( $(this).text() );
     e.stopPropagation();
   });
 
   $('.ui-input-dropdown figure').on('click', function(){
-    $('.ui-input-dropdown-dropdown').addClass('selecting');
-    $('.ui-input-dropdown-input').addClass('selecting');
+    $(this).parent('.ui-input-dropdown-input').siblings('.ui-input-dropdown-dropdown').addClass('selecting');
   });
 
   $('.ui-input-dropdown-dropdown article').on('click', function(e){
-    $('.ui-input-dropdown-dropdown').removeClass('selecting');
-    $('.ui-input-dropdown-input').removeClass('selecting');
-    $('.ui-input-dropdown-input article').text( $(this).text() );
+    $(this).parent('.ui-input-dropdown-dropdown').removeClass('selecting');
+    $(this).parent('.ui-input-dropdown-dropdown').siblings('.ui-input-dropdown-input').children('input').val( $(this).text() );
     e.stopPropagation();
   });
 

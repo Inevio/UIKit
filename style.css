@@ -22,6 +22,7 @@
   color: #545f65;
   max-width: 80px;
   display: inline-block;
+  line-height: 17px;
 }
 
 .ui-btn:hover{
@@ -61,6 +62,7 @@
 .ui-btn.small span{
   font-size: 13px;
   max-width: 71px;
+  line-height: 14px;
 }
 
 .ui-btn.big{
@@ -71,6 +73,7 @@
 .ui-btn.big span{
   font-size: 19px;
   max-width: 87px;
+  line-height: 20px;
 }
 
 
@@ -354,14 +357,10 @@
   height: 24px;
 }
 
-.ui-input-dropdown-input.selecting{
-  display: none;
-}
-
-.ui-input-dropdown-input article{
-  width: 40px;
+.ui-input-dropdown-input input{
   float: left;
-  margin: 6px 0px 0px 5px;
+  width: 40px;
+  margin: 5px 0px 0px 5px;
 }
 
 .ui-input-dropdown-input figure{
@@ -403,7 +402,7 @@
   display: block;
 }
 
-.ui-input-dropdown:hover figure{
+.ui-input-dropdown figure:hover{
   -webkit-border-radius: 0 3px 3px 0;
   -moz-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
@@ -894,6 +893,11 @@
   background-position: -51px -7px;
 }
 
+.dark .ui-input-dropdown-input input{
+  color: #d2dce2;
+  background-color: #545f65;
+}
+
 .dark .ui-input-dropdown-dropdown{
   display: none;
   background-color: #545f65;
@@ -903,7 +907,7 @@
   display: block;
 }
 
-.dark .ui-input-dropdown:hover figure{
+.dark .ui-input-dropdown figure:hover{
   -webkit-border-radius: 0 3px 3px 0;
 	-moz-border-radius: 0 3px 3px 0;
 	border-radius: 0 3px 3px 0;
