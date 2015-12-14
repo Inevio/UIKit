@@ -81,7 +81,7 @@ $( document ).ready(function() {
   });
 
   $('.ui-input-dropdown figure').on('click', function(){
-    $(this).parent('.ui-input-dropdown-input').siblings('.ui-input-dropdown-dropdown').addClass('selecting');
+    $(this).parent('.ui-input-dropdown-input').siblings('.ui-input-dropdown-dropdown').toggleClass('selecting');
   });
 
   $('.ui-input-dropdown-dropdown article').on('click', function(e){
@@ -94,12 +94,15 @@ $( document ).ready(function() {
     $(this).parent('.ui-input-search').addClass('active');
   });
 
+  $('.ui-input-search .delete-content, .ui-input figure').on('mousedown', function(e){
+    e.preventDefault();
+  });
+
   $('.ui-input-search input').on('blur', function(){
     $(this).parent('.ui-input-search').removeClass('active');
   });
 
-  $('.ui-input-search .delete-content').on('click', function(){
-    console.log('click');
+  $('.ui-input-search .delete-content, .ui-input figure').on('click', function(){
     $(this).siblings('input').val('');
   });
 

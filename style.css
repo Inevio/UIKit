@@ -367,7 +367,7 @@
   height: 14px;
   background-repeat: no-repeat;
   display: inline-block;
-  background-position-x: -32px;
+  background-position: -32px 0px;
 }
 
 .ui-view .ui-input.error{
@@ -497,7 +497,7 @@
   height: 14px;
   background-repeat: no-repeat;
   display: inline-block;
-  background-position-x: -32px;
+  background-position: -32px 0px;
 }
 
 .ui-view .ui-input-search.active input{
@@ -513,7 +513,7 @@
 }
 
 .ui-view .ui-input-search.active .search-icon i{
-  background-position-x: -16px;
+  background-position: -16px 0px;
 }
 
 .ui-view .ui-input-search.active input{
@@ -573,7 +573,7 @@
 }
 
 .dark.ui-view .ui-input-search.active .search-icon i{
-  background-position-x: -16px;
+  background-position: -16px 0px;
 }
 
 .dark.ui-view .ui-input-search.active input{
