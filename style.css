@@ -471,7 +471,7 @@
 .ui-select-dropdown{
   display: none;
   background-color: white;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .ui-select-dropdown article{
@@ -516,10 +516,10 @@
 
 .ui-context-menu .item{
   width: 135px;
-  height: 23px;
+  height: 21px;
   padding-left: 20px;
   color: #545f65;
-  padding-top: 5px;
+  padding-top: 7px;
   font-size: 13px;
 }
 
