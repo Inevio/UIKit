@@ -103,5 +103,12 @@ $( document ).ready(function() {
     $(this).siblings('input').val('');
   });
 
+  $('.ui-input input').on('focus', function(){
+    $(this).parent('.ui-input').addClass('active');
+  });
+
+  $('.ui-input input').on('blur', function(){
+    $(this).parent('.ui-input').removeClass('active');
+  });
 
 });
