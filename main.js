@@ -1,9 +1,8 @@
 $( document ).ready(function() {
 
-  var uiMenu = $('.ui-context-menu.example');
+  /*var uiMenu = $('.ui-context-menu.example');
   var zIndex = 1;
-
-  /*$('.ui-view').on('contextmenu', function(e){
+  $('.ui-view').on('contextmenu', function(e){
 
     zIndex++;
     console.log(e.pageX+ ' , ' + e.pageY);
@@ -19,14 +18,6 @@ $( document ).ready(function() {
     }).addClass('created').insertAfter($('.ui-view'));
 
   });*/
-
-  $(document).keypress( function(e){
-
-    if(e.which === 186){
-        $('.ui-view').toggleClass('dark');
-    }
-
-  });
 
   $('.ui-checkbox').on('click', function(){
 
