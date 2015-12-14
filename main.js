@@ -98,9 +98,10 @@ $( document ).ready(function() {
     $(this).parent('.ui-input-search').removeClass('active');
   });
 
-  /*$('.ui-input-search i').on('click', function(){
-    $('.ui-input-search input').val('');
-  });*/
+  $('.ui-input-search .delete-content').on('click', function(){
+    console.log('click');
+    $(this).siblings('input').val('');
+  });
 
 
 });
