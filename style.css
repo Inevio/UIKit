@@ -1155,9 +1155,10 @@
   position: absolute;
   width: 7px;
   height: 8px;
-  background-image: none;
+  background-image: url('tick.png');
   background-size: 7px 8px;
   margin: 3px;
+  opacity: 0;
   animation: 0.1s ui-checkbox-check-appear-animation forwards;
   animation-delay: 0.21s;
   animation-iteration-count: 1;
@@ -1207,8 +1208,10 @@
 }
 
 @keyframes ui-checkbox-check-appear-animation{
-    0%{ background-image: none; }
-    100%{ background-image: url('tick.png'); }
+    /*0%{ background-image: none; }
+    100%{ background-image: url('tick.png'); }*/
+    0%{ opacity: 0 }
+    100%{ opacity: 1 }
 }
 
 @keyframes ui-checkbox-check-in-animation{
