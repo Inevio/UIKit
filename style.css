@@ -385,17 +385,21 @@
 
 .ui-input input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   padding-top: 2px;
+  color: #889399;
 }
 .ui-input input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   padding-top: 2px;
   opacity:  1;
+  color: #889399;
 }
 .ui-input input::-moz-placeholder { /* Mozilla Firefox 19+ */
   padding-top: 2px;
   opacity:  1;
+  color: #889399;
 }
 .ui-input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
   padding-top: 2px;
+  color: #889399;
 }
 
 /* ----------------------- dark ------------------------ */
@@ -533,17 +537,21 @@
 
 .ui-input-search input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   padding-top: 2px;
+  color: #889399;
 }
 .ui-input-search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   padding-top: 2px;
   opacity:  1;
+  color: #889399;
 }
 .ui-input-search input::-moz-placeholder { /* Mozilla Firefox 19+ */
   padding-top: 2px;
   opacity:  1;
+  color: #889399;
 }
 .ui-input-search input:-ms-input-placeholder { /* Internet Explorer 10-11 */
   padding-top: 2px;
+  color: #889399;
 }
 
 /* ----------------------- dark ------------------------ */
