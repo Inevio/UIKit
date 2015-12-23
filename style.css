@@ -461,13 +461,13 @@
 .ui-input-search .search-icon{
   float: left;
   width: 16px;
-  padding-left: 15px;
+  padding-left: 14px;
   padding-right: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
   height: 16px;
   border-right: 1px solid #ccd3d5;
-  margin: 9px 9px 0px 0px;
+  margin: 9px 10px 0px 0px;
 }
 
 .ui-input-search .search-icon i{
