@@ -20,7 +20,7 @@
   font-family: Lato;
   font-size: 15px;
   color: #545f65;
-  max-width: 80px;
+  max-width: calc(100% - 20px);
   display: inline-block;
   line-height: 17px;
 }
@@ -61,7 +61,7 @@
 
 .ui-btn.small span{
   font-size: 13px;
-  max-width: 71px;
+  max-width: calc(100% - 14px);
   line-height: 14px;
 }
 
@@ -72,7 +72,7 @@
 
 .ui-btn.big span{
   font-size: 19px;
-  max-width: 87px;
+  max-width: calc(100% - 28px);
   line-height: 20px;
 }
 
