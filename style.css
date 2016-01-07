@@ -645,7 +645,7 @@
 }
 
 .ui-input-dropdown-input figure i{
-  background-image: url("sprite-white.png");
+  background-image: url('sprite-white.png');
   width: 5px;
   height: 3px;
   margin: 11px 4px 10px 4px;
@@ -725,7 +725,7 @@
 }
 
 .dark .ui-input-dropdown-input figure i{
-  background-image: url("sprite-white.png");
+  background-image: url('sprite-white.png');
 }
 
 .dark .ui-input-dropdown-input input{
@@ -790,7 +790,7 @@
 }
 
 .ui-select-input article{
-  width: 125px;
+  width: calc(100% - 32px);
   float: left;
   padding: 9px 0px 0px 10px;
 }
@@ -805,7 +805,7 @@
 }
 
 .ui-select-input figure i{
-  background-image: url("sprite-white.png");
+  background-image: url('sprite-white.png');
   width: 5px;
   height: 10px;
   margin: 10px 4px 9px 4px;
@@ -868,7 +868,7 @@
 }
 
 .dark .ui-select-input figure i{
-  background-image: url("sprite-white.png");
+  background-image: url('sprite-white.png');
   width: 5px;
   height: 10px;
   margin: 10px 4px 9px 4px;
@@ -935,7 +935,7 @@
 }
 
 .ui-context-menu .item.children i{
-  background-image: url("sprite-white.png");
+  background-image: url('sprite-white.png');
   width: 3px;
   height: 7px;
   margin: 4px 4px 7px 4px;
