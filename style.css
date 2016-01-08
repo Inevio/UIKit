@@ -481,7 +481,7 @@
 .ui-input-search input{
   border: none;
   margin-top: 9px;
-  width: 270px;
+  width: calc(100% - 58px);
   font-family: Lato;
   color: #889399;
 }
@@ -508,7 +508,7 @@
 }
 
 .ui-input-search.active input{
-  width: 250px;
+  width: calc(100% - 78px);
 }
 
 .ui-input-search.active{
