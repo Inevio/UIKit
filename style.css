@@ -80,9 +80,9 @@
 
 .dark .ui-btn{
   background-color: #434d56;
-	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.05), inset 0 2px rgba(255,255,255,.03);
-	-moz-box-shadow: 0 2px 1px rgba(0,0,0,.05), inset 0 2px rgba(255,255,255,.03);
-	box-shadow: 0 2px 1px rgba(0,0,0,.05), inset 0 2px rgba(255,255,255,.03);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05), inset 0 1px rgba(255,255,255,.03);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.05), inset 0 1px rgba(255,255,255,.03);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05), inset 0 1px rgba(255,255,255,.03);
 	border: solid 1px #2c3238;
 	background-image: -webkit-linear-gradient(bottom, #404951, #47525b);
 	background-image: -moz-linear-gradient(bottom, #404951, #47525b);
@@ -2212,7 +2212,6 @@
   -webkit-box-shadow: 0 20px 40px rgba(34,31,26,.3);
   -moz-box-shadow: 0 20px 40px rgba(34,31,26,.3);
   box-shadow: 0 20px 40px rgba(34,31,26,.3);
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .ui-header{
@@ -2416,7 +2415,6 @@
 /* ------------------------ dark ------------------------ */
 
 .dark .ui-window{
-  border-bottom: 1px solid #2c3238;
 	background-color: #2c3238;
   background-image: none;
 }
