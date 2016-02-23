@@ -2248,11 +2248,18 @@
   float: right;
 }
 
+.ui-header .ui-header-buttons .ui-minimize, .ui-header .ui-header-buttons .ui-maximize{
+  margin-right: 8px;
+}
+
+.ui-header .ui-header-buttons .ui-close{
+  margin-right: 12px;
+}
+
 .ui-header .ui-header-buttons .ui-minimize, .ui-header .ui-header-buttons .ui-maximize, .ui-header .ui-header-buttons .ui-close{
   float: left;
   margin-top: 8px;
   margin-bottom: 8px;
-  margin-right: 12px;
   height: 10px;
   width: 10px;
   padding: 7px;
@@ -2282,14 +2289,7 @@
 }
 
 
-.ui-header .ui-header-buttons .inactive:hover, .ui-header .ui-header-buttons .inactive:hover{
-  border: 1px solid transparent;
-  background-image: none;
-  background-color: transparent;
-  box-shadow: none;
-}
-
-.ui-header .ui-header-buttons .inactive:active{
+.ui-header .ui-header-buttons .inactive:hover, .ui-header .ui-header-buttons .inactive:active{
   border: 1px solid transparent;
   background-image: none;
   background-color: transparent;
@@ -2456,6 +2456,13 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
   background-clip: padding-box;
+  box-shadow: none;
+}
+
+.dark .ui-header .ui-header-buttons .inactive:hover, .dark .ui-header .ui-header-buttons .inactive:active{
+  border: 1px solid transparent;
+  background-image: none;
+  background-color: transparent;
   box-shadow: none;
 }
 
