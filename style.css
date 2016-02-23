@@ -2218,9 +2218,6 @@
   float: left;
   height: 40px;
   width: 100%;
-  border-radius: 6px 6px 0 0;
-  -webkit-border-radius: 6px 6px 0 0;
-	-moz-border-radius: 6px 6px 0 0;
   border-bottom: 1px solid #ccd3d5;
 	background-color: #fff;
 	background-image: -webkit-linear-gradient(bottom, #e9ecef, #f9fafb);
