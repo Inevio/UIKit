@@ -626,14 +626,25 @@
   border: solid 1px #ccd3d5;
 }
 
+.ui-input-dropdown.active .ui-input-dropdown-input{
+  border: 1px solid #60b25e;
+}
+
+.ui-input-dropdown.active figure{
+  border-left: 1px solid #60b25e;
+}
+
+.ui-input-dropdown.active .ui-input-dropdown-input input{
+  -webkit-box-shadow: inset 0 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px rgba(0,0,0,.05);
+}
+
 .ui-input-dropdown-input input{
   float: left;
   width: 46px;
   padding: 5px 0px 0px 8px;
   color: #6f7578;
-  -webkit-box-shadow: inset 0 2px rgba(0,0,0,.05);
-  -moz-box-shadow: inset 0 2px rgba(0,0,0,.05);
-  box-shadow: inset 0 2px rgba(0,0,0,.05);
 }
 
 .ui-input-dropdown-input figure{
@@ -643,6 +654,14 @@
   display: inline-block;
   margin: 0px;
   border-left: 1px solid #ccd3d5;
+}
+
+.ui-input-dropdown-input figure:active{
+  background-image: -webkit-linear-gradient(top, #dfe3e6, #ecf0f3);
+  background-image: -moz-linear-gradient(top, #dfe3e6, #ecf0f3);
+  background-image: -o-linear-gradient(top, #dfe3e6, #ecf0f3);
+  background-image: -ms-linear-gradient(top, #dfe3e6, #ecf0f3);
+  background-image: linear-gradient(to bottom, #dfe3e6, #ecf0f3);
 }
 
 .ui-input-dropdown-input figure i{

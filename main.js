@@ -71,6 +71,14 @@ $( document ).ready(function() {
     e.stopPropagation();
   });
 
+  $('.ui-input-dropdown input').on('focus', function(){
+    $(this).parent().parent('.ui-input-dropdown').addClass('active');
+  });
+
+  $('.ui-input-dropdown input').on('blur', function(){
+    $(this).parent().parent('.ui-input-dropdown').removeClass('active');
+  });
+
   $('.ui-input-dropdown figure').on('click', function(){
     $(this).parent('.ui-input-dropdown-input').siblings('.ui-input-dropdown-dropdown').toggleClass('selecting');
   });
