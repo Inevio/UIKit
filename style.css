@@ -217,6 +217,7 @@
 	background-image: -o-linear-gradient(top, #d03a39, #d64948);
 	background-image: -ms-linear-gradient(top, #d03a39, #d64948);
 	background-image: linear-gradient(to bottom, #d03a39, #d64948);
+  border: none;
 }
 
 .ui-btn.cancel:disabled{
@@ -450,6 +451,29 @@
   background-image: url('sprite-black.png');
 }
 
+.dark .ui-input.active{
+  border: solid 1px #60b25e;
+}
+
+.dark .ui-input input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  padding-top: 2px;
+  color: #d2dce2;
+}
+.dark .ui-input input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  padding-top: 2px;
+  opacity:  1;
+  color: #d2dce2;
+}
+.dark .ui-input input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  padding-top: 2px;
+  opacity:  1;
+  color: #d2dce2;
+}
+.dark .ui-input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  padding-top: 2px;
+  color: #d2dce2;
+}
+
 /* ----------------------------------------------------- */
 /* -------------------- SEARCH INPUT ------------------- */
 /* ----------------------------------------------------- */
@@ -570,7 +594,7 @@
 }
 
 .dark .ui-input-search .search-icon{
-  border-right: 1px solid #d2dce2;
+  border-right: 1px solid rgba(188, 197, 202, 0.5);
 }
 
 .dark .ui-input-search .search-icon i{
