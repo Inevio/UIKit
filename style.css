@@ -935,17 +935,18 @@
   width: 155px;
   height: 95px;
   padding: 5px 0px;
-  border-radius: 3px;
+  border-radius: 6px;
   border: 1px solid #ccd3d5;
   animation: fadein 0.2s;
+  background: #fff;
 }
 
 .ui-context-menu .item{
   width: 135px;
-  height: 21px;
+  height: 20px;
   padding-left: 20px;
   color: #545f65;
-  padding-top: 7px;
+  padding-top: 8px;
   font-size: 13px;
 }
 
@@ -997,9 +998,9 @@
 .ui-context-menu .title{
   font-size: 9px;
   font-weight: bold;
-  color: #545f65;
-  height: 18px;
-  padding: 10px 0px 0px 20px;
+  color: #889399;
+  height: 16px;
+  padding: 8px 0px 0px 20px;
 }
 
 /* ----------------------- dark ------------------------ */
