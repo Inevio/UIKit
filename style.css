@@ -448,7 +448,8 @@
 }
 
 .dark .ui-input figure i{
-  background-image: url('sprite-black.png');
+  background-image: url('sprite-dark.png');
+  background-size: 91px 16px;
 }
 
 .dark .ui-input.active{
@@ -598,7 +599,8 @@
 }
 
 .dark .ui-input-search .search-icon i{
-  background-image: url('sprite-black.png');
+  background-image: url('sprite-dark.png');
+  background-size: 91px 16px;
 }
 
 .dark .ui-input-search input{
@@ -615,7 +617,8 @@
 }
 
 .dark .ui-input-search .delete-content i{
-  background-image: url('sprite-black.png');
+  background-image: url('sprite-dark.png');
+  background-size: 91px 16px;
 }
 
 .dark .ui-input-search.active .search-icon i{
@@ -957,7 +960,6 @@
 
 .ui-context-menu{
   width: 155px;
-  height: 95px;
   padding: 5px 0px;
   border-radius: 6px;
   border: 1px solid #ccd3d5;
